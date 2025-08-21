@@ -1,7 +1,9 @@
-Enter a url you want to check the validity of its anchor tags for.
-It prints out HTML errors alongside the error code.
-For non-HTML errors which confuse me, it writes them out to a file, in the script's file location.
+# Python Module Prerequisites
+**NECESSARY FOR PROGRAM TO WORK**
 
-DEPENDENCIES - You'll need to install the following modules for this to work:
-- BeautifulSoup4 HTML parser: https://pypi.org/project/beautifulsoup4/
-- Requests module: https://pypi.org/project/requests/
+BeautifulSoup4 HTML parser: https://pypi.org/project/beautifulsoup4/
+
+Requests module: https://pypi.org/project/requests/
+
+# Usage
+Run "link_verificator.py". It will prompt you for a URL and once submitted, it will scan all hyperlinks on that URL and check their validity. If errors are encountered it will write out the faulty URL to a file located in the same place as the script, alongside the HTTPS error code.
